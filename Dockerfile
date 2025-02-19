@@ -3,7 +3,7 @@
 # Stage 1: Scraper
 FROM node:18-slim AS scraper
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY package.json ./
 RUN npm install
 COPY scrape.js ./
 RUN apt-get update && apt-get install -y chromium
