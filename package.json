@@ -1,0 +1,7 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "dependencies": {
+    "puppeteer": "latest"
+  }
+}
